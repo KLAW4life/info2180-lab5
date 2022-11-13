@@ -1,1 +1,64 @@
 /* Add your own styles */
+
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #8d99a1;
+}
+
+header img{
+    font-size: 30px;
+    padding-right: 20px;
+    width: 250px;
+}
+
+header h1{
+    font-size: 60px;
+    color: #002238;
+    font-style: oblique;
+}
+
+main{
+    display: grid;
+    justify-content: center;
+    padding: 50px;
+    background-color: #A3D0E1;
+}
+
+div #controls{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;  */
+}
+
+label{
+    color: #002238;
+}
+
+#lookup{
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#country{ 
+    padding: 5px;
+    font-size: 15px;
+    text-align: left;
+    border-radius: 5px;
+    width: 300px;
+}
+
+div #result{
+    display: grid;
+    justify-content: center;
+    padding: 50px;
+}
