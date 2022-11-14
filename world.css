@@ -26,16 +26,8 @@ header h1{
 }
 
 main{
-    display: grid;
-    justify-content: center;
     padding: 50px;
     background-color: #A3D0E1;
-}
-
-div #controls{
-    /* display: flex;
-    justify-content: center;
-    align-items: center;  */
 }
 
 label{
@@ -43,6 +35,13 @@ label{
 }
 
 #lookup{
+    padding: 5px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#lookup-cities{
     padding: 5px;
     font-size: 15px;
     text-align: center;
@@ -57,8 +56,27 @@ label{
     width: 300px;
 }
 
-div #result{
-    display: grid;
+div#result{
+    display: flexbox;
     justify-content: center;
-    padding: 50px;
+    padding-left: 100px;
+}
+
+div#controls{
+    display: flexbox;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-left: 200px;
+}
+
+table th{
+    font-size: 20px;
+    text-align: left;
+}
+
+table tr, td{
+    font-size: 20px;
+    text-align: left;
+    padding: 5px;
+    padding-left: 5px;
 }
