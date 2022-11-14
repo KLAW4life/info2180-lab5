@@ -32,6 +32,13 @@ main{
 
 label{
     color: #002238;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+input#country{
+    padding-left: 10px;
 }
 
 #lookup{
@@ -63,15 +70,24 @@ div#result{
 }
 
 div#controls{
-    display: flexbox;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 20px;
     padding-bottom: 20px;
-    padding-left: 200px;
+    gap: 8px;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
 table th{
     font-size: 20px;
     text-align: left;
+    padding: 5px;
 }
 
 table tr, td{
